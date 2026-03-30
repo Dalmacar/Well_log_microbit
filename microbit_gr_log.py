@@ -39,8 +39,8 @@ SAND_HATCH = ".."        # dotted sand
 SHALE_HATCH = "- -"      # shale lines
 
 # GR thresholds
-CARBONATE_MAX = 45
-SAND_MAX = 90
+CARBONATE_MAX = 5
+SAND_MAX = 30
 # GR >= 90 -> shale
 
 # ==============================
@@ -76,19 +76,20 @@ while True:
     # ==============================
     # FILL LITHOLOGY INTERVALS
     # ==============================
-    if len(depths) >= 2:
+    if len(depths) >= 0:
         for i in range(len(depths) - 1):
             y1 = depths[i]
             y2 = depths[i + 1]
             x = gr_values[i]
 
-            if x < CARBONATE_MAX:
+            if x <= CARBONATE_MAX:
                 fill_color = CARBONATE_COLOR
                 hatch_style = CARBONATE_HATCH
-            elif x < SAND_MAX:
+            elif x <= SAND_MAX:
                 fill_color = SAND_COLOR
                 hatch_style = SAND_HATCH
-            else:
+                
+            else  :
                 fill_color = SHALE_COLOR
                 hatch_style = SHALE_HATCH
 
