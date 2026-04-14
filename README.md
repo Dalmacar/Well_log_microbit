@@ -139,5 +139,3 @@ This project helps students understand:
 - Engineering thinking through physical simulation  
 
 ---
-
-## 📂 Project Structure
