@@ -3,6 +3,14 @@
 This project demonstrates how to simulate and visualize a **well log (Gamma Ray)** using BBC micro:bit devices, a robotic car, and Python.
 
 ---
+## 👩‍🔬 Authors
+
+This project was developed by:
+
+- Dalma Cerro Arrieta  
+- Mariella El Khoury
+- Pallavi Sahu  
+---
 
 ## 🌍 Why This Project Matters
 
