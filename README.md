@@ -1,6 +1,6 @@
-# Well Log Micro:bit Project
+# Well Log Micro:bit Project - K-12  students
 
-This project demonstrates how to simulate and visualize a **well log (Gamma Ray)** using BBC micro:bit devices, a robotic car, and Python.
+This project demonstrates how to simulate and visualize a **well logs (Gamma Ray)** using BBC micro:bit devices, a robotic car, and a Python script.
 
 ---
 ## 👩‍🔬 Authors
